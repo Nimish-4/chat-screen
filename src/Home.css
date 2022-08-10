@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(150deg, #4da8d5 23.17%, #2cea6e 94.92%);
+  }
+
+.outer{
+    position: relative;
+   
+}
+
+.text{
+   
+   justify-content: right;
+   position: relative;
+   left: 18%;
+   width: 64%;
+   top: 70px;
+}
+.img{
+ 
+    position: relative;
+    top: 130px;
+    left: 35%;
+    width: 550px;
+    
+}
+
+.upload{
+   
+    position: fixed;
+    top: 260px;
+    left: 1200px;
+}
+
+.remove{
+    /*border: 2px solid green;*/
+}
